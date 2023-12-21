@@ -57,7 +57,7 @@
         <a href="add_expense.php" class="list-group-item list-group-item-action "><span data-feather="plus-square"></span> Catat Pengeluaran</a>
         <a href="manage_expense.php" class="list-group-item list-group-item-action "><span data-feather="dollar-sign"></span> Histori Pengeluaran</a>
       </div>
-      <div class="sidebar-heading">Settings </div>
+      <div class="sidebar-heading">Setelan </div>
       <div class="list-group list-group-flush">
         <a href="profile.php" class="list-group-item list-group-item-action "><span data-feather="user"></span> Profil</a>
         <a href="logout.php" class="list-group-item list-group-item-action "><span data-feather="power"></span> Logout</a>
@@ -150,6 +150,11 @@
 
   </div>
   <!-- /#wrapper -->
+  <!-- Footer -->
+  <footer class="text-center mt-4">
+    <p>&copy; <?php echo date("Y"); ?> <a href="https://www.instagram.com/molen_web/" target="_blank">MOLEN TEAM</a>. All rights reserved.</p>
+  </footer>
+  <!-- End Footer -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="js/jquery.slim.min.js"></script>
